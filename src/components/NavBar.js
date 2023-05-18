@@ -1,17 +1,17 @@
 import React from 'react';
 
-const NavBar = ({ handlePageChange }) => {
+const NavBar = ({ currentPage, handlePageChange }) => {
   return (
     <div className="bg-gray-700 custom-nav">
       <nav className="navbar custom-nav">
         <div className="flex-none">
-          <ul className="menu menu-horizontal flex space-x-4 px-1">
+          <ul className="menu menu-horizontal flex space-x-4 px-1 ">
             {/* About */}
             <li>
               <a
                 href="#about"
                 onClick={() => handlePageChange('About')}
-                className="text-white"
+                className={currentPage === 'About' ? 'custom-active' : 'text-white custom-hover'}
               >
                 About Me
               </a>
@@ -21,7 +21,7 @@ const NavBar = ({ handlePageChange }) => {
               <a
                 href="#blog"
                 onClick={() => handlePageChange('Blog')}
-                className="text-white"
+                className={currentPage === 'Blog' ? 'custom-active' : 'text-white custom-hover'}
               >
                 Blog
               </a>
@@ -31,7 +31,7 @@ const NavBar = ({ handlePageChange }) => {
               <a
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
-                className="text-white"
+                className={currentPage === 'Contact' ? 'custom-active' : 'text-white custom-hover'}
               >
                 Contact
               </a>
@@ -41,7 +41,7 @@ const NavBar = ({ handlePageChange }) => {
               <a
                 href="#resume"
                 onClick={() => handlePageChange('Resume')}
-                className="text-white"
+                className={currentPage === 'Resume' ? 'custom-active' : 'text-white custom-hover'}
               >
                 Resume
               </a>

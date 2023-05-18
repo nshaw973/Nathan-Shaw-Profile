@@ -14,6 +14,17 @@
     display: flex;
     flex-direction: row-reverse;
     height: 7.5vh;
+    justify-content: center;
+}
+
+.custom-hover:hover {
+  transition-duration: .1s;
+  background-color: rgb(49, 49, 73);
+}
+
+.custom-active {
+  background-color: antiquewhite;
+  color: black;
 }
 
 .custom-footer {
@@ -38,11 +49,26 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   box-shadow: 30px 0px 30px rgba(0, 0, 0, 0.295), -30px 0px 30px rgba(0, 0, 0, 0.295) ;
+}
+
+.custom-card-container {
+  width: 25%;
 }
 
 .custom-card {
   position: relative;
-  left: 1%;
+  left: 2%;
   top: 2%;
+  margin-bottom: 100%;
+}
+
+.pages {
+  width: fit-content;
+  height: fit-content;
+  margin: 5%;
+  padding: 5%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
 }

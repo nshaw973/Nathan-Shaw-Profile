@@ -29,9 +29,9 @@ export default function Portfolio() {
 
   return (
     <div>
-      <NavBar handlePageChange={handlePageChange} />
+      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       <section className="portfolio-container">
-        <div id="About">
+        <div id="About" className="custom-card-container">
           <div className="card w-80 custom-card">
             <figure>
               <img src={MyImage} />
@@ -45,7 +45,9 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        {renderCard()}
+        <div className='pages'>
+            {renderCard()}
+        </div>
       </section>
       <Footer />
     </div>
