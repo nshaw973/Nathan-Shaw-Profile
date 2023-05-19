@@ -46,7 +46,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className='pages'>
-            <h1 className='bg-gray-700 text-white custom-card-header'>{currentPage}</h1>
+            <h1 className='bg-gray-700 text-white custom-card-header font-bold'>{currentPage}</h1>
             {renderCard()}
         </div>
       </section>

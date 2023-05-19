@@ -3,6 +3,10 @@
 @import '../node_modules/tailwindcss/utilities.css';
 @import '../node_modules/daisyui/dist/full.css';
 
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
 .theme-color {
   background: rgb(255, 255, 255);
   background-image: url('./components/images/bg.JPG');
@@ -63,7 +67,6 @@
   overflow-y: scroll;
   scroll-behavior: auto;
   margin: 2%;
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5214286398153012) 28%); 
+  background: rgba(197, 197, 197, 0.87);
   border-radius: 16px;
 }
