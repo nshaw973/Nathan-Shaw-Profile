@@ -1,11 +1,11 @@
 import React from "react";
-import Portfolio from "./components/Portfolio";
+import MainPage from "./components/MainPage";
 import './index.css'
 
 const App = () => {
   return (
     <>
-      <Portfolio />
+      <MainPage />
     </>
 
   )

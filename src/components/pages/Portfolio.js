@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-export default function Blog() {
+export default function Portfolio() {
   return (
     <div className="container mx-auto p-4">
       <h3 className="text-2xl font-bold mb-4">

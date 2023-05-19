@@ -2,21 +2,21 @@ import React, { useState } from 'react';
 import MyImage from './images/profile.jpg';
 // Pages
 import About from './pages/About';
-import Blog from './pages/Blog';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 //NavBar & Footer
 import NavBar from './NavBar';
 import Footer from './Footer';
 
-export default function Portfolio() {
+export default function MainPage() {
   const [currentPage, setCurrentPage] = useState('About');
   const renderCard = () => {
     if (currentPage === 'About') {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Blog />;
+      return <Portfolio />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;

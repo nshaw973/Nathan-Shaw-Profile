@@ -19,7 +19,7 @@ const NavBar = ({ currentPage, handlePageChange }) => {
             {/* Blog */}
             <li>
               <a
-                href="#blog"
+                href="#portfolio"
                 onClick={() => handlePageChange('Portfolio')}
                 className={currentPage === 'Portfolio' ? 'custom-active' : 'text-white custom-hover'}
               >
