@@ -15,7 +15,7 @@ export default function Portfolio() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Blog') {
+    if (currentPage === 'Portfolio') {
       return <Blog />;
     }
     if (currentPage === 'Contact') {
@@ -28,7 +28,7 @@ export default function Portfolio() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='fullpage'>
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       <section className="portfolio-container">
         <div id="About" className="custom-card-container">
@@ -46,6 +46,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className='pages'>
+            <h1 className='bg-gray-700 text-white custom-card-header'>{currentPage}</h1>
             {renderCard()}
         </div>
       </section>
