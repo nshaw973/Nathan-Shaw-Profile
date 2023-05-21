@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // Images
 import MARKET_PLACE_IMAGE from '../images/mainpage.PNG';
 import TECH_BLOG_IMAGE from '../images/tech-blog.PNG';
@@ -14,41 +14,38 @@ export default function Portfolio() {
       <ul className="all-projects">
         {/* Marketplace */}
         <li
-          className="port-containers bg-cover bg-center"
+          className="port-containers bg-cover bg-center rounded-3xl border-2 border-black"
           style={{ backgroundImage: `url(${MARKET_PLACE_IMAGE})` }}
         >
-          <div className="off on w-full h-full flex flex-col justify-center items-center">
+          <div className="off on w-full h-full flex flex-col justify-center items-center rounded-3xl border-2 border-black">
             <h1 className="text-black font-bold text-2xl">The MarketPlace</h1>
             <a
               href="https://github.com/nshaw973/The-Marketplace"
-              target="_blank"
+              rel="external"
             >
               Github Repo
             </a>
-            <a
-              href="https://group-3-marketplace.herokuapp.com/"
-              target="_blank"
-            >
+            <a href="https://group-3-marketplace.herokuapp.com/" rel="external">
               Deployed Site
             </a>
           </div>
         </li>
         {/* Tech Blog */}
         <li
-          className="port-containers bg-cover bg-center"
+          className="port-containers bg-cover bg-center rounded-3xl border-2 border-black"
           style={{ backgroundImage: `url(${TECH_BLOG_IMAGE})` }}
         >
-          <div className="off on w-full h-full flex flex-col justify-center items-center">
+          <div className="off on w-full h-full flex flex-col justify-center items-center rounded-3xl border-2 border-black">
             <h1 className="text-black font-bold text-2xl">Tech Blog Model</h1>
             <a
               href="https://github.com/nshaw973/Challenge-12-Tech-Blog"
-              target="_blank"
+              rel="external"
             >
               Github Repo
             </a>
             <a
               href="https://challenge-12-tech-blog.herokuapp.com/"
-              target="_blank"
+              rel="external"
             >
               Deployed Site
             </a>
@@ -56,26 +53,20 @@ export default function Portfolio() {
         </li>
         {/* Weather API */}
         <li
-          className="port-containers bg-cover bg-center"
+          className="port-containers bg-cover bg-center rounded-3xl border-2 border-black"
           style={{ backgroundImage: `url(${WEATHER_API_IMAGE})` }}
         >
-          <div className="off on w-full h-full flex flex-col justify-center items-center">
+          <div className="off on w-full h-full flex flex-col justify-center items-center rounded-3xl border-2 border-black">
+            <h1 className="text-black font-bold text-2xl">Weather API Model</h1>
             <a
               href="https://github.com/nshaw973/Challenge-6-Weather-Forecast"
-              target="_blank"
-              className="text-black font-bold text-2xl"
-            >
-              Weather API Model
-            </a>
-            <a
-              href="https://github.com/nshaw973/Challenge-6-Weather-Forecast"
-              target="_blank"
+              rel='external'
             >
               Github Repo
             </a>
             <a
               href="https://nshaw973.github.io/Challenge-6-Weather-Forecast/"
-              target="_blank"
+              rel='external'
             >
               Deployed Site
             </a>
@@ -83,26 +74,22 @@ export default function Portfolio() {
         </li>
         {/* PWA Model */}
         <li
-          className="port-containers bg-cover bg-center"
+          className="port-containers bg-cover bg-center rounded-3xl border-2 border-black"
           style={{ backgroundImage: `url(${PWA_IMAGE})` }}
         >
-          <div className="off on w-full h-full flex flex-col justify-center items-center">
-            <a
-              href="https://github.com/nshaw973/Progressive-Web-App-Text-Editor-Model"
-              target="_blank"
-              className="text-black font-bold text-2xl"
-            >
+          <div className="off on w-full h-full flex flex-col justify-center items-center rounded-3xl border-2 border-black">
+            <h1 className="text-black font-bold text-2xl">
               Progressive Web App Text Editor Model
-            </a>
+            </h1>
             <a
               href="https://github.com/nshaw973/Progressive-Web-App-Text-Editor-Model"
-              target="_blank"
+              rel="external"
             >
               Github Repo
             </a>
             <a
               href="https://infinite-falls-29096.herokuapp.com/"
-              target="_blank"
+              rel="external"
             >
               Deployed Site
             </a>
@@ -110,26 +97,22 @@ export default function Portfolio() {
         </li>
         {/* Social Network API */}
         <li
-          className="port-containers bg-cover bg-center"
+          className="port-containers bg-cover bg-center rounded-3xl border-2 border-black"
           style={{ backgroundImage: `url(${SOCIAL_NETWORK_IMAGE})` }}
         >
-          <div className="off on w-full h-full flex flex-col justify-center items-center">
-            <a
-              href="https://github.com/nshaw973/Social-Network-API-Model"
-              target="_blank"
-              className="text-black font-bold text-2xl"
-            >
+          <div className="off on w-full h-full flex flex-col justify-center items-center rounded-3xl border-2 border-black">
+            <h1 className="text-black font-bold text-2xl">
               Social Network API Model
-            </a>
+            </h1>
             <a
               href="https://github.com/nshaw973/Social-Network-API-Model"
-              target="_blank"
+              rel="external"
             >
               Github Repo
             </a>
             <a
               href="https://drive.google.com/file/d/1p8wq2StcBfobocv8wBX5VNUiC1k-T4AF/view"
-              target="_blank"
+              rel="external"
             >
               Video Demo
             </a>
@@ -137,26 +120,22 @@ export default function Portfolio() {
         </li>
         {/* E-Commerce */}
         <li
-          className="port-containers bg-cover bg-center"
+          className="port-containers bg-cover bg-center rounded-3xl border-2 border-black"
           style={{ backgroundImage: `url(${E_COMMERCE_IMAGE})` }}
         >
-          <div className="off on w-full h-full flex flex-col justify-center items-center">
-            <a
-              href="https://github.com/nshaw973/Challenge-11-E-Commerece-Back-End"
-              target="_blank"
-              className="text-black font-bold text-2xl"
-            >
+          <div className="off on w-full h-full flex flex-col justify-center items-center rounded-3xl border-2 border-black">
+            <h1 className="text-black font-bold text-2xl">
               E-Commerce Back-End Model
-            </a>
+            </h1>
             <a
               href="https://github.com/nshaw973/Challenge-11-E-Commerece-Back-End"
-              target="_blank"
+              rel="external"
             >
               Github Repo
             </a>
             <a
               href="https://drive.google.com/file/d/1zyDIBKaiFkmxVGMezTb17mpDJKV0hP9c/view"
-              target="_blank"
+              rel="external"
             >
               Video Demo
             </a>
