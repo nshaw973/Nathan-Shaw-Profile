@@ -4,6 +4,7 @@ const NavBar = ({ currentPage, handlePageChange }) => {
   return (
     <div className="bg-gray-700 custom-nav">
       <nav className="navbar custom-nav">
+      <h1 className='font-bold text-white pl-3'>Nathan Shaw</h1>
         <div className="flex-none">
           <ul className="menu menu-horizontal flex space-x-4 px-1 ">
             {/* About */}

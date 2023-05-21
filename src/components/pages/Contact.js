@@ -7,8 +7,6 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform form submission logic here
-    // You can access the form values using the 'name', 'email', and 'message' variables
   };
 
   return (
