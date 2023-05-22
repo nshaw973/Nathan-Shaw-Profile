@@ -15,6 +15,7 @@ export default function Contact() {
         To contact me, add your name, email, and anything you'd like to ask!
       </h2>
       <form onSubmit={handleSubmit}>
+        {/* Name */}
         <div className="mb-4">
           <label htmlFor="name" className="block mb-2">
             Name:
@@ -29,7 +30,7 @@ export default function Contact() {
             className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500 "
           />
         </div>
-
+        {/* Email */}
         <div className="mb-4">
           <label htmlFor="email" className="block mb-2">
             Email:
@@ -44,7 +45,7 @@ export default function Contact() {
             className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           />
         </div>
-
+        {/* Message */}
         <div className="mb-4">
           <label htmlFor="message" className="block mb-2">
             Message:
@@ -59,7 +60,7 @@ export default function Contact() {
             className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           ></textarea>
         </div>
-
+        {/* Submit Button */}
         <button
           type="submit"
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"

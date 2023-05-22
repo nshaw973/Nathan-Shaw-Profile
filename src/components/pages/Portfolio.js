@@ -60,13 +60,13 @@ export default function Portfolio() {
             <h1 className="text-black font-bold text-2xl">Weather API Model</h1>
             <a
               href="https://github.com/nshaw973/Challenge-6-Weather-Forecast"
-              rel='external'
+              rel="external"
             >
               Github Repo
             </a>
             <a
               href="https://nshaw973.github.io/Challenge-6-Weather-Forecast/"
-              rel='external'
+              rel="external"
             >
               Deployed Site
             </a>
