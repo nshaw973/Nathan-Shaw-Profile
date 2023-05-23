@@ -1,4 +1,5 @@
 import React from 'react';
+// Image
 import PROFILE_PIC from '../images/profile.jpg';
 
 export default function About() {

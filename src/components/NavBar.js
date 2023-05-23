@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Bringing in the currentPage and HandlePageChange function to allow changing the value of the current page found in MainPage.js
+// onClick is the event listener that will change the value of the currentPage
 const NavBar = ({ currentPage, handlePageChange }) => {
   return (
     <div className="bg-gray-700 custom-nav">
