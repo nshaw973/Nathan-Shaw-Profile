@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nshaw973.github.io/Nathan-Shaw-Profile",
+  "homepage": "http://nshaw973.github.io/Nathan-Shaw-Profile",
   "name": "nathan-shaw-profile",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,6 @@
     "autoprefixer": "^10.4.14",
     "bootstrap": "^5.2.3",
     "daisyui": "^2.51.6",
-    "gh-pages": "^5.0.0",
     "jspdf": "^2.5.1",
     "postcss": "^8.4.23",
     "react": "17.0.2",
@@ -44,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
