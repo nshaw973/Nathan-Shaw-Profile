@@ -23,12 +23,12 @@ export default function MainPage() {
       case 'Resume':
         return <Resume />;
       default:
-        return null;
+        return <h1>error</h1>;
     }
   };
   // gets sent to the navbar via props, and from there the navbar handles the value for currentpage.
   const handlePageChange = (page) => setCurrentPage(page);
-  
+
   return (
     <div className='fullpage'>
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
