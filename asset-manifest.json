@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Nathan-Shaw-Profile/static/css/main.2fcea4cf.css",
+    "main.js": "/Nathan-Shaw-Profile/static/js/main.09afdabc.js",
+    "static/js/498.32a4243a.chunk.js": "/Nathan-Shaw-Profile/static/js/498.32a4243a.chunk.js",
+    "static/js/703.d2ab2207.chunk.js": "/Nathan-Shaw-Profile/static/js/703.d2ab2207.chunk.js",
+    "static/js/9.173fb9c8.chunk.js": "/Nathan-Shaw-Profile/static/js/9.173fb9c8.chunk.js",
+    "static/media/bg.JPG": "/Nathan-Shaw-Profile/static/media/bg.25ec69ce8a261a323c1e.JPG",
+    "static/media/profile.jpg": "/Nathan-Shaw-Profile/static/media/profile.d87eadddc7bd2efdd4e1.jpg",
+    "static/media/mainpage.PNG": "/Nathan-Shaw-Profile/static/media/mainpage.2ca42b66f2ba9f072503.PNG",
+    "static/media/weather-forecast.PNG": "/Nathan-Shaw-Profile/static/media/weather-forecast.e8b0f4108ffb47c13d3b.PNG",
+    "static/media/tech-blog.PNG": "/Nathan-Shaw-Profile/static/media/tech-blog.319bf5a8c79246d46dea.PNG",
+    "static/media/Social-network-api.PNG": "/Nathan-Shaw-Profile/static/media/Social-network-api.a60705018059a8f773a2.PNG",
+    "static/media/progressive-web-app.PNG": "/Nathan-Shaw-Profile/static/media/progressive-web-app.441bb72e31b5290a8e79.PNG",
+    "static/media/e-commerce.PNG": "/Nathan-Shaw-Profile/static/media/e-commerce.5f48db32bdacbf1aa22a.PNG",
+    "index.html": "/Nathan-Shaw-Profile/index.html",
+    "main.2fcea4cf.css.map": "/Nathan-Shaw-Profile/static/css/main.2fcea4cf.css.map",
+    "main.09afdabc.js.map": "/Nathan-Shaw-Profile/static/js/main.09afdabc.js.map",
+    "498.32a4243a.chunk.js.map": "/Nathan-Shaw-Profile/static/js/498.32a4243a.chunk.js.map",
+    "703.d2ab2207.chunk.js.map": "/Nathan-Shaw-Profile/static/js/703.d2ab2207.chunk.js.map",
+    "9.173fb9c8.chunk.js.map": "/Nathan-Shaw-Profile/static/js/9.173fb9c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fcea4cf.css",
+    "static/js/main.09afdabc.js"
+  ]
+}
